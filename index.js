@@ -1,9 +1,10 @@
 function theBeatlesPlay(musicians, instruments){
-  let arr = []
+  const arr = []
   for (let i = 0; i < musicians.length; i++){
-    var str = musicians[i] + " plays " + instruments[i];
+    let str = musicians[i] + " plays " + instruments[i];
     arr.push(str)
-  } return arr
+  } 
+  return arr
 }
 
 function johnLennonFacts(facts) {
